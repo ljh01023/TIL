@@ -120,18 +120,14 @@ Identifier has already declared: 같은 이름으로 중복된 상수 선언한 
 Missing initalizer in const declaration: 상수 선언할때 값을 지정하지 않는 경우 발생하는 오류
 Assignment constant variable: 이미 선언된 상수의 자료값을 변경한 경우 발생하는 오류
 
-## 변수
-
-let 이름 = 값
-변수 = 값
-
 ### 구문오류
 
 Identifier has already been declared: 특정한 이름의 변수는 한 파일에서 한번만 선언이 가능한데, 같은 이름으로 다른 변수를 선언할 경우 발생하는 오류.
 
-## 증감연산자
+##
 
-1. 변수++ : 기존의 변수 값에 1을 더함(후위)
-2. ++변수 : 기존의 변수 값에 1을 더함(전위)
-3. 변수-- : 기존의 변수 값에 1을 뺌(후위)
-4. --변수 : 기존의 변수 값에 1을 뺌(전위)
+.indexOf() : 배열에 값이 있는지 확인
+.includes() : 배열이 값을 포함하는지 확인
+.find() : 배열의 요소 찾기
+.filter() : 배열의 요소 검색
+.for루프 : 요소 검색
